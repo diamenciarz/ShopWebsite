@@ -15,10 +15,12 @@ app.get("/api/health", (_req, res) => {
   res.json({ status: "ok" });
 });
 
+// Serve frontend static files
 const clientBuildPath = path.join(__dirname, '../../frontend/dist');
 if (require('fs').existsSync(clientBuildPath)) {
   app.use(express.static(clientBuildPath));
 
+  // SPA fallback - serve index.html for client-side routes
   app.get('*', (req, res) => {
     res.sendFile(path.join(clientBuildPath, 'index.html'));
   });
