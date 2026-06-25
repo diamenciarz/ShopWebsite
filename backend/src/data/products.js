@@ -95,6 +95,54 @@ const products = [
     image: "https://images.unsplash.com/photo-1576566588028-4147f3842f27?w=400",
     stock: 28,
   },
+  {
+    id: 9,
+    name: "Oversized Hoodie",
+    price: 54.99,
+    category: "tops",
+    description:
+      "A relaxed oversized hoodie crafted from heavyweight cotton. Features a kangaroo pocket and adjustable drawstring hood.",
+    sizes: ["S", "M", "L", "XL", "XXL"],
+    colors: ["stone", "navy", "black"],
+    image: "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=400",
+    stock: 32,
+  },
+  {
+    id: 10,
+    name: "Pleated Midi Skirt",
+    price: 39.99,
+    category: "bottoms",
+    description:
+      "An elegant pleated midi skirt that moves beautifully. Made from flowing crepe fabric with a comfortable elastic waistband.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["camel", "black", "burgundy"],
+    image: "https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=400",
+    stock: 24,
+  },
+  {
+    id: 11,
+    name: "Linen Button-Down Dress",
+    price: 64.99,
+    category: "dresses",
+    description:
+      "A breezy linen dress with a classic button-down front. Perfect for warm-weather weddings, brunches, or beach days.",
+    sizes: ["XS", "S", "M", "L", "XL"],
+    colors: ["ivory", "sage", "blue"],
+    image: "https://images.unsplash.com/photo-1595777467616-9fceeea6db0a?w=400",
+    stock: 18,
+  },
+  {
+    id: 12,
+    name: "Quilted Puffer Vest",
+    price: 89.99,
+    category: "outerwear",
+    description:
+      "A lightweight quilted puffer vest ideal for transitional weather. Water-resistant filling with a stand-up collar.",
+    sizes: ["S", "M", "L", "XL"],
+    colors: ["olive", "rust", "black"],
+    image: "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=400",
+    stock: 22,
+  },
 ];
 
 module.exports = products;
