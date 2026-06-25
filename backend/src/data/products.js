@@ -128,7 +128,7 @@ const products = [
       "A breezy linen dress with a classic button-down front. Perfect for warm-weather weddings, brunches, or beach days.",
     sizes: ["XS", "S", "M", "L", "XL"],
     colors: ["ivory", "sage", "blue"],
-    image: "https://images.unsplash.com/photo-1595777467616-9fceeea6db0a?w=400",
+    image: "https://images.unsplash.com/photo-1659297949927-06fa02629af0?w=400",
     stock: 18,
   },
   {
